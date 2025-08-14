@@ -84,7 +84,7 @@ h2 {
   width: 120px;
   text-align: center;
   background-color: #3882f6;
-  color: white;
+  color: #e5e7e5;
   display: inline-block;
   border-radius: 6px;
 }
@@ -139,7 +139,7 @@ h2 {
 
 .cta-banner {
   background-color: #3882f6;
-  color: white;
+  color: #e5e7e5;
   border-radius: 6px;
   padding: 32px 64px;
   display: flex;
@@ -148,5 +148,12 @@ h2 {
 }
 
 .btn-border {
-  border: 2px solid white;
+  border: 2px solid #e5e7e5;
+}
+
+footer {
+  color: #e5e7e5;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
 }
