@@ -114,3 +114,22 @@ h2 {
   text-align: center;
   display: block;
 }
+
+.bg-light {
+  background-color: #e5e7e5;
+}
+
+.quote {
+  max-width: 800px;
+  font-size: 36px;
+  margin-inline: auto;
+  padding-block: 80px;
+  font-weight: lighter;
+}
+
+.quote span {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  display: block;
+}
