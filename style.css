@@ -12,3 +12,40 @@ body {
   background-color: white;
   color: #1f2937;
 }
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 24px;
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.nav-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  flex-grow: 1;
+}
+
+.bg-dark {
+  background-color: #1f2937;
+}
+
+.body {
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: 300;
+}
