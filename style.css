@@ -49,3 +49,43 @@ a {
   font-size: 18px;
   font-weight: 300;
 }
+
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  margin: 12px 0 6px;
+}
+
+.hero {
+  padding-block: 76px;
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap-reverse;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.hero > * {
+  flex-grow: 1;
+  max-width: calc(50% - 12px);
+  flex-basis: 400px;
+}
+
+.cta {
+  padding: 8px 12px;
+  width: 120px;
+  text-align: center;
+  background-color: #3882f6;
+  color: white;
+  display: inline-block;
+  border-radius: 6px;
+  margin-top: 18px;
+}
