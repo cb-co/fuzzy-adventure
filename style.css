@@ -79,7 +79,7 @@ h2 {
   flex-basis: 400px;
 }
 
-.cta {
+.btn {
   padding: 8px 12px;
   width: 120px;
   text-align: center;
@@ -87,6 +87,9 @@ h2 {
   color: white;
   display: inline-block;
   border-radius: 6px;
+}
+
+.cta {
   margin-top: 18px;
 }
 
@@ -132,4 +135,18 @@ h2 {
   font-weight: bold;
   text-align: right;
   display: block;
+}
+
+.cta-banner {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 6px;
+  padding: 32px 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-border {
+  border: 2px solid white;
 }
